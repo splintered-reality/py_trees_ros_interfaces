@@ -3,7 +3,7 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 3.5)
-project(py_trees_interfaces)
+project(py_trees_ros_interfaces)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -20,7 +20,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-# find_package(actionlib_msgs REQUIRED)
+find_package(action_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(unique_identifier_msgs REQUIRED)
 
@@ -53,7 +53,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 #  ${msg_files}
   ${action_files}
   DEPENDENCIES
-    # actionlib_msgs
+    action_msgs  # even though not directly using, it requires some trace back
     # std_msgs
     unique_identifier_msgs
   ADD_LINTER_TESTS

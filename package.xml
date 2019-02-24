@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">  
-  <name>py_trees_interfaces</name>
+  <name>py_trees_ros_interfaces</name>
   <version>0.4.3</version>
   <description>
     Interfaces used by py_trees_ros and py_trees_ros_tutorials.
@@ -11,9 +11,9 @@
 
   <license>BSD</license>
 
-  <url type="website">http://ros.org/wiki/py_trees_msgs</url>
-  <url type="repository">https://github.com/stonier/py_trees_msgs</url>
-  <url type="bugtracker">https://github.com/stonier/py_trees_msgs/issues</url>
+  <url type="website">http://ros.org/wiki/py_trees_ros_interfaces</url>
+  <url type="repository">https://github.com/splintered-reality/py_trees_ros_interfaces</url>
+  <url type="bugtracker">https://github.com/splintered-reality/py_trees_ros_interfaces/issues</url>
 
   <author>Daniel Stonier</author>
   <author>Michal Staniaszek</author>
@@ -22,16 +22,12 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <build_depend>rosidl_default_generators</build_depend>
-  <!-- <build_depend>actionlib_msgs</build_depend> -->
-  <!-- <build_depend>dynamic_reconfigure</build_depend> -->
-  <build_depend>std_msgs</build_depend>
-  <build_depend>unique_identifier_msgs</build_depend>
+
+  <depend>std_msgs</depend>
+  <depend>action_msgs</depend>
+  <depend>unique_identifier_msgs</depend>
 
   <exec_depend>rosidl_default_runtime</exec_depend>
-  <exec_depend>action_msgs</exec_depend>
-  <!-- <exec_depend>dynamic_reconfigure</exec_depend> -->
-  <exec_depend>std_msgs</exec_depend>
-  <exec_depend>unique_identifier_msgs</exec_depend>
 
   <test_depend>ament_lint_common</test_depend>
 
