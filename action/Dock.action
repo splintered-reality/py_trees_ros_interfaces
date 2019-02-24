@@ -1,5 +1,5 @@
 ###############################################################################
-# Dicj
+# Dock
 ###############################################################################
 #
 # Interaface to a typical docking controller
@@ -10,19 +10,19 @@
 # Goal
 ####################
 # To dock (True) or undock (False)
-bool dock
+# bool dock
 
 ---
 ####################
 # Result
 ####################
 
-int8 value
-string message
+# int8 value
+# string message
 
 
-int8 SUCCESS = 0
-int8 ERROR = 1
+# int8 SUCCESS = 0
+# int8 ERROR = 1
 
 ---
 
@@ -30,4 +30,4 @@ int8 ERROR = 1
 # Feedback
 ####################
 
-float32 percentage_completed
+# float32 percentage_completed

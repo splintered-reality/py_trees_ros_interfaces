@@ -21,7 +21,6 @@ find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 # find_package(actionlib_msgs REQUIRED)
-# find_package(dynamic_reconfigure REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(unique_identifier_msgs REQUIRED)
 
@@ -29,19 +28,10 @@ find_package(unique_identifier_msgs REQUIRED)
 # Messages
 ##############################################################################
 
-#generate_dynamic_reconfigure_options(
-#    dynamic_reconfigure/Battery.cfg
-#    dynamic_reconfigure/MockActionServer.cfg
-#    dynamic_reconfigure/MockSafetySensors.cfg
-#)
-#
-#add_action_files(
-#  DIRECTORY
-#      action
-#  FILES
-#      Dock.action
-#      Rotate.action
-#)
+set(action_files
+  "action/Dock.action"
+  "action/Rotate.action"
+)
 
 set(msg_files
   "msg/Behaviour.msg"
@@ -59,8 +49,9 @@ set(srv_files
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  ${srv_files}
-  ${msg_files}
+#  ${srv_files}
+#  ${msg_files}
+  ${action_files}
   DEPENDENCIES
     # actionlib_msgs
     # std_msgs
