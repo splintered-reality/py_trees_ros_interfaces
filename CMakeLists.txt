@@ -37,6 +37,7 @@ set(action_files
 set(msg_files
   "msg/Behaviour.msg"
   "msg/BehaviourTree.msg"
+  "msg/KeyValue.msg"
   "msg/PublisherDetails.msg"
   "msg/Statistics.msg"
   "msg/SubscriberDetails.msg"
