@@ -26,7 +26,7 @@ jobs:
           command: |
             echo "Working Directory: `pwd`" > install_dependencies_output
             mkdir -p src
-            sudo apt install ros-dashing-py-trees
+            apt install ros-dashing-py-trees
             cd src && git clone https://github.com/splintered-reality/py_trees_ros_interfaces
 #            python3 -m venv venv >> install_dependencies_output
 #            . venv/bin/activate >> install_dependencies_output
