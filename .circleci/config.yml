@@ -30,9 +30,9 @@ jobs:
           name: Install Dependencies
           command: |
             echo "Working Directory: `pwd`" > install_dependencies_output
-            python3 -m venv venv >> install_dependencies_output
-            . venv/bin/activate >> install_dependencies_output
-            pip install -e .[test] >> install_dependencies_output
+#            python3 -m venv venv >> install_dependencies_output
+#            . venv/bin/activate >> install_dependencies_output
+#            pip install -e .[test] >> install_dependencies_output
 
       - save_cache:
           paths:
@@ -44,28 +44,26 @@ jobs:
       # other common Python testing frameworks include pytest and nose
       # https://pytest.org
       # https://nose.readthedocs.io
-      - run:
-          name: Tests
-          command: |
-            . venv/bin/activate
-            python setup.py nosetests
+      #- run:
+      #    name: Tests
+      #    command: |
+      #      . venv/bin/activate
+      #      python setup.py nosetests
 
-      - run:
-          name: Linters
-          command: |
-            . venv/bin/activate
-            ./lint/flake8 | tee lint_output
+      #- run:
+      #    name: Linters
+      #    command: |
+      #      . venv/bin/activate
+      #      ./lint/flake8 | tee lint_output
 
       - store_artifacts:
           path: install_dependencies_output
           destination: install_dependencies_output
             
-      - store_artifacts:
-          path: nosetests.html
-          destination: nosetests.html
+      #- store_artifacts:
+      #    path: nosetests.html
+      #    destination: nosetests.html
           
-      - store_artifacts:
-          path: lint_output
-          destination: lint_output
-            
-          
+      #- store_artifacts:
+      #    path: lint_output
+      #    destination: lint_output
