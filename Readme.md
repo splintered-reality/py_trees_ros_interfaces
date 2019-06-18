@@ -32,4 +32,4 @@
 
 ## PyTrees-ROS2 Ecosystem
 
-See the `py_trees_ros` [README](https://github.com/splintered-reality/py_trees_ros/blob/devel/README.md) for the latest information on pytrees packages in the ROS ecosystem and their status.
+Refer to [py_trees_ros/README.md](https://github.com/splintered-reality/py_trees_ros/blob/devel/README.md) for more information on the pytrees packages in the ROS ecosystem.
