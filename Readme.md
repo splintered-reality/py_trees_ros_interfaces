@@ -2,7 +2,7 @@
 
 | | Devel | Dashing | Crystal |
 |:---|:---:|:---:|:---:|
-| Sources | [![Sources-Devel][sources-devel-image]][sources-devel] | [![Sources-1.1.x][sources-1.1.x-image]][sources-1.1.x] | [![Sources-Crystal-1.1.x][sources-1.1.x-image]][sources-1.1.x] |
+| Sources | [![Sources-Devel][sources-devel-image]][sources-devel] | [![Sources-1.2.x][sources-1.2.x-image]][sources-1.2.x] | [![Sources-Crystal-1.1.x][sources-1.1.x-image]][sources-1.1.x] |
 | ROS Index | - | [![ROSIndex-Dashing][ros-index-dashing-image]][ros-index-dashing] | [![ROSIndex-Crystal][ros-index-crystal-image]][ros-index-crystal] |
 | Packages | - | [![Packages-Dashing][packages-dashing-image]][packages-dashing] | [![Packages-Crystal][packages-crystal-image]][packages-crystal] |
 | CI | - | [![Build-Dashing][build-dashing-image]][build-dashing] | [![Build-Crystal][build-crystal-image]][build-crystal] |
@@ -14,8 +14,10 @@
 [ros-index-crystal-image]: http://img.shields.io/badge/rosindex-crystal-blue.svg?style=plastic
 
 [sources-devel]: https://github.com/splintered-reality/py_trees_ros_interfaces/tree/devel
+[sources-1.2.x]: https://github.com/splintered-reality/py_trees_ros_interfaces/tree/release/1.2.x
 [sources-1.1.x]: https://github.com/splintered-reality/py_trees_ros_interfaces/tree/release/1.1.x
 [sources-devel-image]: http://img.shields.io/badge/sources-devel-blue.svg?style=plastic
+[sources-1.2.x-image]: http://img.shields.io/badge/sources-1.2.x-blue.svg?style=plastic
 [sources-1.1.x-image]: http://img.shields.io/badge/sources-1.1.x-blue.svg?style=plastic
 
 [packages-dashing]: http://repo.ros2.org/status_page/ros_dashing_default.html?q=py_trees_ros_interfaces
