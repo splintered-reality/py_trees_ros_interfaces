@@ -4,7 +4,7 @@
 |:---|:---:|:---:|:---:|:---:|
 | Sources | [![Sources-Devel][sources-devel-image]][sources-devel] | [![Sources-2.0.x][sources-2.0.x-image]][sources-2.0.x] | [![Sources-1.2.x][sources-1.2.x-image]][sources-1.2.x] | [![Sources-Crystal-1.1.x][sources-1.1.x-image]][sources-1.1.x] |
 | ROS Index | - | [![ROSIndex-Eloquent][ros-index-eloquent-image]][ros-index-eloquent] | [![ROSIndex-Dashing][ros-index-dashing-image]][ros-index-dashing] | [![ROSIndex-Crystal][ros-index-crystal-image]][ros-index-crystal] |
-| Packages | - | [![Packages-Dashing][packages-dashing-image]][packages-dashing] | [![Packages-Crystal][packages-crystal-image]][packages-crystal] |
+| Packages | - | [![Packages-Eloquent][packages-eloquent-image]][packages-eloquent] | [![Packages-Dashing][packages-dashing-image]][packages-dashing] | [![Packages-Crystal][packages-crystal-image]][packages-crystal] |
 | CI | - | [![Build-Eloquent][build-eloquent-image]][build-eloquent] | [![Build-Dashing][build-dashing-image]][build-dashing] | [![Build-Crystal][build-crystal-image]][build-crystal] |
 | Docs | - | ![Docs-Eloquent][docs-not-available-image] | ![Docs-Dashing][docs-not-available-image] | ![Docs-Crystal][docs-not-available-image] |
 
