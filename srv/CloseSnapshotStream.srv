@@ -1,0 +1,8 @@
+# Close a snapshot stream
+
+string topic
+
+---
+
+# response stating successful reconfiguration
+bool result

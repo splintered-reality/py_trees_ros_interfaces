@@ -45,11 +45,14 @@ set(msg_files
 )
 
 set(srv_files
-  "srv/CloseBlackboardWatcher.srv"
+  "srv/CloseBlackboardStream.srv"
+  "srv/CloseSnapshotStream.srv"
   "srv/GetBlackboardVariables.srv"
   "srv/IntrospectPublishers.srv"
   "srv/IntrospectSubscribers.srv"
-  "srv/OpenBlackboardWatcher.srv"
+  "srv/OpenBlackboardStream.srv"
+  "srv/OpenSnapshotStream.srv"
+  "srv/ReconfigureSnapshotStream.srv"
   "srv/StatusReport.srv"
 )
 
