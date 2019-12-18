@@ -41,6 +41,8 @@ set(msg_files
   "msg/KeyValue.msg"
   "msg/PublisherDetails.msg"
   "msg/Statistics.msg"
+  "msg/ServiceDetails.msg"
+  "msg/SnapshotConfiguration.msg"
   "msg/SubscriberDetails.msg"
 )
 
@@ -49,6 +51,7 @@ set(srv_files
   "srv/CloseSnapshotStream.srv"
   "srv/GetBlackboardVariables.srv"
   "srv/IntrospectPublishers.srv"
+  "srv/IntrospectServices.srv"
   "srv/IntrospectSubscribers.srv"
   "srv/OpenBlackboardStream.srv"
   "srv/OpenSnapshotStream.srv"
