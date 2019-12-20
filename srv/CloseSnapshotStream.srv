@@ -1,8 +1,17 @@
-# Close a snapshot stream
+##############################################################################
+#
+# Close an existing snapshot stream.
+#
+# Request
+#   topic_name: snapshot stream to close
+#
+# Response
+#   result: success/failure of the operation (failure: stream did not exist)
+#
+##############################################################################
 
-string topic
+string topic_name
 
 ---
 
-# response stating successful reconfiguration
 bool result

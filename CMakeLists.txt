@@ -42,7 +42,7 @@ set(msg_files
   "msg/PublisherDetails.msg"
   "msg/Statistics.msg"
   "msg/ServiceDetails.msg"
-  "msg/SnapshotConfiguration.msg"
+  "msg/SnapshotStreamParameters.msg"
   "msg/SubscriberDetails.msg"
 )
 
