@@ -8,7 +8,7 @@
 #
 ##############################################################################
 
-float32 snapshot_period
+float64 snapshot_period
 bool blackboard_data
 bool blackboard_activity
 
