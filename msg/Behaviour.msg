@@ -12,6 +12,7 @@ uint8 SELECTOR = 3
 uint8 PARALLEL = 4
 uint8 CHOOSER = 5
 uint8 DECORATOR = 6
+uint8 COMPOSITE = 7
 
 # Blackbox Level - these must match py_trees.common.BlackBoxLevel
 uint8 BLACKBOX_LEVEL_DETAIL = 1
